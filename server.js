@@ -46,7 +46,7 @@ app.get('/about', (req, res) => {
 
 app.get('/bad', (req, res) => {
     res.send({
-        errorMessage: 'Error Handling request.'
+        errorMsg: 'Error Handling request.'
     });
 });
 
